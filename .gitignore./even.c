@@ -1,9 +1,8 @@
 #include<stdio.h>
-#include<conio.h>
-void main()
+int main()
 {
 int a;
-scanf(%d,&a);
+scanf("%d",&a);
 if((a%2)==0)
 {
 printf("the given number is even");
@@ -12,4 +11,5 @@ else
 {
 printf("the given number is odd");
 }
+  return 0;
 }
